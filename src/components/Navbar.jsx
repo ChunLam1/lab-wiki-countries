@@ -4,8 +4,10 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
 	return (
-		<nav>
-			<NavLink to="/">WikiCountries</NavLink>
+		<nav class="navbar navbar-dark bg-primary mb-3">
+		<div class="container">
+			<NavLink to="/" style={{color:'white',textDecoration:"none"}}>WikiCountries</NavLink>
+			</div>
 		</nav>
 	);
 };
