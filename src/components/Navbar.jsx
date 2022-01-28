@@ -4,9 +4,9 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
 	return (
-		<nav class="navbar navbar-dark bg-primary mb-3">
-		<div class="container">
-			<NavLink to="/" style={{color:'white',textDecoration:"none"}}>WikiCountries</NavLink>
+		<nav className="navbar navbar-dark bg-primary mb-3">
+		<div className="container">
+			<NavLink to="/"className="navbar-brand">WikiCountries</NavLink>
 			</div>
 		</nav>
 	);
